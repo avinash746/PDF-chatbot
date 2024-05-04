@@ -5,9 +5,6 @@ import PyPDF2
 import streamlit as st
 import openai
 
-# Initialize OpenAI API
-openai.api_key = "YOUR_API_KEY"
-
 # Function to learn from PDF
 def learn_pdf(file_path):
     content_chunks = []
